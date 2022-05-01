@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  * img {
+      width: 100%;
+      height: auto;
+  }
+
+  body {
+    width: 100vw;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: sans-serif ;
+    background-image: url("fondo1.PNG");
+    }
+.menu {
+background-color:black;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+gap: 10px 10px;
+}
+.music {
+   width: 15rem;
+}
+
+.menu1 {
+  background: black;
+  list-style: none;
+  flex-basis:auto;
+  align-self: auto;
+  margin: 35px;
+  font-family: sans-serif ;
+  font-size: 25px;
+ color: white;
+}
+
+/* seccion 1 */
+.seccion1 {
+  background-color: black;
+  padding: 2rem;
+  border: 10rem;
+  margin: 10rem;
+  border-color: black;
+}
+
+.seccion1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+   gap: 40px;
+   border-radius: 50PX;
+}
+
+.banda1 {
+  width: 15rem;
+  border-radius: 20px;
+  border-left: 2px;
+}
+
+.hijoa1 {
+ color: white;
+ align-self: flex-start;
+ font-size: 40px;
+ background: black;
+ line-height: 60px;
+}
+
+.hijoa2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 10px;
+  display: flex;
+  align-content: flex-end;
+}
+
+/* seccion 2 */
+
+
+.album1 {
+  width: 15rem;
+  border-radius: 20px;
+  border-left: 2px;
+  align-content: flex-end;
+  border-radius: 20PX;
+}
+
+
+
+.seccion2 {
+  background-color: black;
+  padding: 7rem;
+  border: 10rem;
+  margin: 10rem;
+
+}
+
+.seccion2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+   gap: 40px;
+   border-radius: 50PX;
+}
+
+.hijob1 {
+  color: white;
+  align-self: flex-start;
+  font-size: 40px;
+  background: black;
+  margin: 0px;
+ }
+
+p {
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+/* seccion 3 */
+
+.cancion1 {
+  width: 15rem;
+  border-radius: 20px;
+  border-left: 2px;
+  border-radius: 20PX;
+}
+
+
+
+.seccion3 {
+  background-color: black;
+  padding: 7rem;
+  border: 10rem;
+  margin: 10rem;
+
+}
+
+.seccion3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+   gap: 40px;
+   border-radius: 50PX;
+}
+
+.hijoc1 {
+  color: white;
+  align-self: flex-start;
+  font-size: 40px;
+  background: black;
+  margin: 0px;
+ }
+
+p {
+  font-family: sans-serif;
+  color: white;
+
+}
+
+h1:hover {color: red;font-size: 2rem;}
