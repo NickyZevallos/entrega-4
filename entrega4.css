@@ -174,3 +174,9 @@ p {
 }
 
 h1:hover {color: red;font-size: 2rem;}
+
+
+.banda1:hover {
+
+  transform: rotate(180deg);
+}
